@@ -23,4 +23,4 @@ bitbucket_runners = {
   }
 }
 
-k8s_namespace = "bitbucket-runner-1"
+k8s_namespace = "bitbucket-runner"
