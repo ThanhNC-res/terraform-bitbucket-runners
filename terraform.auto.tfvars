@@ -1,22 +1,24 @@
 bitbucket_runners = {
-  runner_resources = {
-    limits = {
-      cpu    = 1
-      memory = "4G"
+  thanh-runner-1 = {
+    runner_resources = {
+      limits = {
+        cpu    = 1
+        memory = "4G"
+      }
+      requests = {
+        cpu    = 1
+        memory = "1G"
+      }
     }
-    requests = {
-      cpu    = 1
-      memory = "1G"
-    }
-  }
-  dind_resources = {
-    limits = {
-      cpu    = 1
-      memory = "4G"
-    }
-    requests = {
-      cpu    = 1
-      memory = "1G"
+    dind_resources = {
+      limits = {
+        cpu    = 1
+        memory = "4G"
+      }
+      requests = {
+        cpu    = 1
+        memory = "1G"
+      }
     }
   }
 }
